@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int a;
+    float w,h;
+    scanf("%d",&a);
+    scanf("%f",&w);
+    scanf("%f",&h);
+    if (a>=18&&w>=45&&h>=5.5)
+    {
+     printf("He or She can donate blood\n");
+    }
+    else
+    {
+     printf("He or She unable to donate blood\n");
+    }
+    return 0;
+}
