@@ -35,7 +35,7 @@ else
    j++;
    k++;
 }
-
+}
 while(i<m)
 {
 c[k]=a[i];
@@ -47,7 +47,6 @@ while(j<n)
 c[k]=b[j];
 j++;
 k++;
-}
 }
 for(i=0;i<k;i++)
 {
